@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/ThingDef[@Name = "BuildingBase"]/statBases/SellPriceFactor</xpath>
+		<value>	
+			<SellPriceFactor>1</SellPriceFactor>
+		</value>
+	</Operation> 
+</Patch>
