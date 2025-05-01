@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[@Name = "RH2_BuildingBase"]/statBases/SellPriceFactor</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[@Name = "RH2_BuildingBase"]/statBases/SellPriceFactor</xpath>
+		<value>	
+			<SellPriceFactor>1</SellPriceFactor>
+		</value>
+    </match>
+  </Operation>
+</Patch>
